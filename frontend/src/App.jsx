@@ -8,7 +8,7 @@ import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <div className="flex text-white">
+    <div className="flex">
       <SideBar />
       <div className="max-w-7xl my-5 text-white mx-auto transition-all duration-300 flex-1">
         <Routes>
