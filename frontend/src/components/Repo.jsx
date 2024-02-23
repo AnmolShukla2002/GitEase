@@ -12,7 +12,7 @@ const Repo = () => {
       </span>
       <div className="flex gap-2 items-center flex-wrap">
         <a
-          href={"https://github.com/burakorkmez/mern-chat-app"}
+          href={"https://github.com/AnmolShukla2002/ecomm-microservices"}
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 text-lg font-semibold"
