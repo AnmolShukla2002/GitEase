@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import userRoute from "./routes/userRoute.js";
 import exploreRoutes from "./routes/exploreRoutes.js";
 import cors from "cors";
+import connectDB from "./db/connectDB.js";
 
 dotenv.config();
 const app = express();
@@ -18,4 +19,5 @@ app.use("/api/explore", exploreRoutes);
 
 app.listen(5000, () => {
   console.log("Server running at port 5000.");
+  connectDB();
 });
